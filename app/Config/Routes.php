@@ -6,7 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-$routes->add('(:any)', 'Home::index');
+// $routes->add('(:any)', 'Home::index');
 // $routes->addRedirect('/', 'index.html', 302);
 
 

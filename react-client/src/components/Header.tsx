@@ -93,7 +93,7 @@ export default function Header() {
   
       <ul className="nav flex-column">
         <li className="nav-item" data-bs-dismiss="offcanvas">
-          <Link className="nav-link text-dark embossed " to="/#">About Us</Link>
+          <Link className="nav-link text-dark embossed " to="/about">About Us</Link>
         </li>
         <li><hr/></li>
         <li className="nav-item dropdown">
@@ -113,7 +113,7 @@ export default function Header() {
         <li><hr/></li>
   
         <li className="nav-item" data-bs-dismiss="offcanvas">
-          <Link className="nav-link text-dark embossed" to="/#">Contact</Link>  
+          <Link className="nav-link text-dark embossed" to="/contact">Contact</Link>  
         </li>
         <li><hr/></li>
 
